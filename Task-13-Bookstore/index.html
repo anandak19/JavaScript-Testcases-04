@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-store</title>
+    <link rel="shortcut icon" href="./assets/images/books.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="book-store">
+        <!-- landing-section  -->
+        <div class="landing-section">
+            <div class="landing-section__header">
+                Online Book Store
+            </div>
+            <div class="landing-section__options">
+    
+                <div class="search-box">
+                    <input type="text" placeholder="Search Book..." id="searchItem">
+                    <img src="./assets/images/search.svg" alt="Search" onclick="searchBook()">
+                </div>
+    
+                <button class="add_book" onclick="addBook()">
+                    Add book
+                    <img src="./assets/images/Plus.svg" alt="" class="add_book__plus">
+                </button>
+            </div>
+        </div>
+
+        <!-- listing-section of books  -->
+        <div class="listing-section">
+            <h1 class="listing-section__heading">Book’s Collection</h1>
+    
+            <div class="book-list" id="bookList">
+    
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">The Silent Guardian</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">John A. Stevens</p>
+                        <p class="book-slate__price">₹299</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Eternal Echoes</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Sarah L. Mitchell</p>
+                        <p class="book-slate__price">₹499</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Rise of a Developer</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Anandakrishnan H</p>
+                        <p class="book-slate__price">₹359</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Chronicles of Serenity</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Emily K. Turner</p>
+                        <p class="book-slate__price">₹348</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Shadows of Destiny</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Benjamin R. Anderson</p>
+                        <p class="book-slate__price">₹719</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">A Symphony of Stars</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Olivia M. Collins</p>
+                        <p class="book-slate__price">₹100</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">The Enchanted Forest</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Daniel S. Mitchell</p>
+                        <p class="book-slate__price">₹619</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Echoes of Eternity</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Jessica R. Stewart</p>
+                        <p class="book-slate__price">₹237</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Serenade of Shadows</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Christopher L. Harris</p>
+                        <p class="book-slate__price">₹265</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">The Celestial Odyssey</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Amanda G. Turner</p>
+                        <p class="book-slate__price">₹300</p>
+                    </div>
+                </div>
+
+                <div class="book-slate">
+                    <div class="book-slate__left">
+                        <h2 class="book-slate__title">Lost in Time</h2>
+                    </div>
+                    <div class="book-slate__right">
+                        <p class="book-slate__author">Natalie E. Clarke</p>
+                        <p class="book-slate__price">₹229</p>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>

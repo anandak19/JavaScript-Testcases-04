@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif; }
+
+body {
+  background: linear-gradient(to top, #41ff7a, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh; }
+
+.task-tile {
+  background-color: #ff9500;
+  height: 142px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  .task-tile__checkbox {
+    height: 36px;
+    width: 36px; }
+  .task-tile__icons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px; }
+  .task-tile__icon {
+    height: 28px;
+    width: 28px; }
+    .task-tile__icon:hover {
+      background-color: #f5ce98;
+      border-radius: 10px; }
+  .task-tile__task-done {
+    text-decoration: line-through; }
+  .task-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5); }
+
+.todo-app {
+  background: linear-gradient(to right, #fcb47a, #fdd55f);
+  width: 55%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 8px;
+  margin-top: 18px;
+  box-shadow: inset 0px -8px 8px -8px rgba(0, 0, 0, 0.5); }
+  .todo-app__heading {
+    margin-bottom: 12px;
+    font-size: 44px;
+    font-weight: 800;
+    color: #3c1400; }
+  .todo-app__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0; }
+  .todo-app__add {
+    position: relative;
+    padding: 8px 6px;
+    margin-bottom: 38px;
+    border-radius: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: #00000099;
+    background-color: #ffffff;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5); }
+    .todo-app__add input {
+      padding: 10px;
+      font-size: 16px;
+      width: 90%;
+      border-radius: 30px;
+      outline: none;
+      box-sizing: border-box; }
+    .todo-app__add img {
+      position: absolute;
+      right: 19px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 34px;
+      height: 34px;
+      cursor: pointer;
+      transition: all 0.3s; }
+      .todo-app__add img:hover {
+        width: 39px;
+        height: 39px; }
+  .todo-app .task-tile {
+    width: 700px;
+    margin-bottom: 16px; }
+
+/*# sourceMappingURL=style.css.map */

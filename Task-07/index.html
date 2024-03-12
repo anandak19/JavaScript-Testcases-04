@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email and password validate</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" method="post" class="form-container__form" id="formInputs" onsubmit="validateForm(event)">
+            <h1 class="form-container__heading">Register Now</h1>
+
+            <input type="email" name="email" id="email" placeholder="Email" class="form-container__input" >
+
+            <input type="password" name="password" id="password" placeholder="Password" class="form-container__input" >
+            <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Confirm Password" class="form-container__input" >
+
+            <button type="submit" class="form-container__button">Register</button>
+        </form>
+    </div>
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>

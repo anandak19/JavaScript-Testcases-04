@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz-app</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="app-ui">
+        <h1 class="app-ui__title">Quiz App</h1>
+        <div class="app-ui__container">
+            <div class="app-ui__question-box">
+                <p class="app-ui__question" id="question">Please refresh the page or check the js file </p>
+            </div>
+            <div class="app-ui__ans-box">
+
+                <button class="option-tile" id="option1" onclick="takeInput()">Option1</button>
+                <button class="option-tile" id="option2" onclick="takeInput()">Option2</button>
+                <button class="option-tile" id="option3" onclick="takeInput()">Option3</button>
+                <button class="option-tile" id="option4" onclick="takeInput()">Option4</button>
+            </div>
+            <div class="app-ui__button-box">
+                <button class="app-ui__btn" onclick="checkAnswer()">Check</button>
+                <button class="app-ui__btn" onclick="nextQuestion()">Next</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>

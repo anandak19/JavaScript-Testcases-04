@@ -1,0 +1,39 @@
+.task-tile{
+    background-color: #ff9500;
+    height: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+    &__checkbox {
+        height: 36px;
+        width: 36px;
+    }
+
+    &__icons-container{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    &__icon{
+        height: 28px;
+        width: 28px;
+        &:hover{
+            background-color: #f5ce98;
+            border-radius: 10px;
+        }
+    }
+
+    &__task-done{
+        text-decoration: line-through;
+    }
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    }
+}

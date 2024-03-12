@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="todo-app">
+        <div class="todo-app__head">
+            <h1 class="todo-app__heading">To-do List</h1>
+        </div>
+
+        <div class="todo-app__container">
+            <div class="todo-app__add">
+                <input type="text" placeholder="Add new task" maxlength="60">
+                <img src="../assets/images/Plus.svg" alt="Add">
+            </div>
+
+            <!-- task tile  -->
+            <div class="task-tile">
+                <div class="task-tile__check-container">
+                    <input type="checkbox" id="taskCheck" class="task-tile__checkbox">
+                </div>
+                <div class="task-tile__note-container">
+                    <h3 id="task_name">create a web-based to-do list application where.</h3>
+                    <p id="task_due">19-08-2024</p>
+                </div>
+                <div class="task-tile__icons-container">
+                    <img src="../assets/images/icon-up.svg" alt="" class="task-tile__icon">
+                    <img src="../assets/images/icon-delete.svg" alt="" class="task-tile__icon">
+                    <img src="../assets/images/icon-down.svg" alt="" class="task-tile__icon">
+                </div>
+            </div>
+            <!-- task tile end  -->
+        </div>
+
+    </div>
+
+</body>
+</html>

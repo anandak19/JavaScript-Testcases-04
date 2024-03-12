@@ -1,0 +1,33 @@
+.option-tile{
+    font-size: 18px;
+    color: #0000ff;
+    height: 64px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border: 3px solid #0000ff;
+
+    &:hover{
+        background-color: #0000ff;
+        color: #ffffff;
+    }
+    &--selected{
+        background-color: #0000ff;
+        color: #ffffff;
+
+    }
+    &--wrong{
+        background-color: #ff1f06;
+        color: #ffffff;
+        border: 3px solid #ff1f06;
+    }
+    &--right{
+        background-color: #00af26;
+        color: #ffffff;
+        border: 3px solid #00af26;
+    }
+
+}

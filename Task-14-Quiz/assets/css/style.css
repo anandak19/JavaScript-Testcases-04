@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif; }
+
+body {
+  background: linear-gradient(to left, #a48def, #5a6ce2);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.option-tile {
+  font-size: 18px;
+  color: #0000ff;
+  height: 64px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  border: 3px solid #0000ff; }
+  .option-tile:hover {
+    background-color: #0000ff;
+    color: #ffffff; }
+  .option-tile--selected {
+    background-color: #0000ff;
+    color: #ffffff; }
+  .option-tile--wrong {
+    background-color: #ff1f06;
+    color: #ffffff;
+    border: 3px solid #ff1f06; }
+  .option-tile--right {
+    background-color: #00af26;
+    color: #ffffff;
+    border: 3px solid #00af26; }
+
+.app-ui {
+  background: linear-gradient(to top, #80f278, #e7f978);
+  width: 50%;
+  padding: 14px 0;
+  height: 85vh;
+  margin-top: 40px; }
+  .app-ui__title {
+    color: #0000ff;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    border-bottom: 2px dotted #00009f; }
+  .app-ui__container {
+    padding: 12px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .app-ui__question-box {
+    text-align: justify;
+    margin: 0 38px 18px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .app-ui__question {
+    color: #00009f;
+    font-size: 22px;
+    font-weight: 600; }
+  .app-ui .option-tile {
+    width: 600px;
+    margin-bottom: 12px; }
+  .app-ui__btn {
+    padding: 8px 16px;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100px;
+    background-color: #4200e7;
+    color: #ffff;
+    margin: 0 4px; }
+    .app-ui__btn:hover {
+      background-color: #ffff;
+      color: #4200e7;
+      border: 2px solid #4200e7; }
+
+/*# sourceMappingURL=style.css.map */

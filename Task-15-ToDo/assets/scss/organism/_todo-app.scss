@@ -1,0 +1,70 @@
+.todo-app{
+    background: linear-gradient(to right, #fcb47a, #fdd55f);
+    width: 55%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 8px;
+    margin-top: 18px;
+    box-shadow: inset 0px -8px 8px -8px rgba(0, 0, 0, 0.5);
+
+
+    &__heading{
+        margin-bottom: 12px;
+        font-size: 44px;
+        font-weight: 800;
+        color: #3c1400;
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    &__add{
+        position: relative;
+        padding: 8px 6px;
+        margin-bottom: 38px;
+        border-radius: 30px;
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        color: #00000099;
+        background-color: #ffffff;
+        transition: all 0.3s;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+
+        & input{
+            padding: 10px;
+            font-size: 16px;
+            width: 90%;
+            border-radius: 30px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        & img{
+            position: absolute;
+            right: 19px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 34px;
+            height: 34px;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover{
+                width: 39px;
+                height: 39px;
+            }
+        }
+    }
+
+    .task-tile{
+        width: 700px;
+        margin-bottom: 16px;
+    }
+}

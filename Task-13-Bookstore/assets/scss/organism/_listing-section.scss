@@ -1,0 +1,14 @@
+.listing-section{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 88px;
+    background-color: #5699B5;
+
+    &__heading{
+        text-align: center;
+        padding-bottom: 18px;
+        font-size: 36px;
+        font-weight: 800;
+        color: #ffffff;
+    }
+}
